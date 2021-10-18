@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>CQRS_Wrokshop.Application</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CQRS-Wrokshop.Domain\CQRS-Wrokshop.Domain.csproj" />
+    <ProjectReference Include="..\CQRS-Wrokshop.Infrastructure\CQRS-Wrokshop.Infrastructure.csproj" />
+    <ProjectReference Include="..\CQRS-Wrokshop.ResponseStates\CQRS-Wrokshop.ResponseStates.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>CQRS_Wrokshop.Api</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CQRS-Wrokshop.Application\CQRS-Wrokshop.Application.csproj" />
+    <ProjectReference Include="..\CQRS-Wrokshop.Infrastructure\CQRS-Wrokshop.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

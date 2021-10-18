@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31019.35
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQRS-Wrokshop.Domain", "CQRS-Wrokshop.Domain\CQRS-Wrokshop.Domain.csproj", "{3E6B950F-84C6-4FF5-8527-A569712304D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQRS-Wrokshop.Infrastructure", "CQRS-Wrokshop.Infrastructure\CQRS-Wrokshop.Infrastructure.csproj", "{34FACC77-597D-4287-AE4B-66A51F5D7C3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQRS-Wrokshop.Application", "CQRS-Wrokshop.Application\CQRS-Wrokshop.Application.csproj", "{FA76C4DD-712D-4565-BFF6-32B2D571DBBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQRS-Wrokshop.ResponseStates", "CQRS-Wrokshop.ResponseStates\CQRS-Wrokshop.ResponseStates.csproj", "{C081011F-BF5E-4D9C-AB73-FE62E64F3383}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQRS-Wrokshop.Api", "CQRS-Wrokshop.Api\CQRS-Wrokshop.Api.csproj", "{E909682D-E07E-4524-B286-29C9FBCEE8D5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E6B950F-84C6-4FF5-8527-A569712304D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E6B950F-84C6-4FF5-8527-A569712304D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E6B950F-84C6-4FF5-8527-A569712304D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E6B950F-84C6-4FF5-8527-A569712304D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34FACC77-597D-4287-AE4B-66A51F5D7C3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34FACC77-597D-4287-AE4B-66A51F5D7C3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34FACC77-597D-4287-AE4B-66A51F5D7C3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34FACC77-597D-4287-AE4B-66A51F5D7C3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA76C4DD-712D-4565-BFF6-32B2D571DBBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA76C4DD-712D-4565-BFF6-32B2D571DBBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA76C4DD-712D-4565-BFF6-32B2D571DBBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA76C4DD-712D-4565-BFF6-32B2D571DBBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C081011F-BF5E-4D9C-AB73-FE62E64F3383}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C081011F-BF5E-4D9C-AB73-FE62E64F3383}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C081011F-BF5E-4D9C-AB73-FE62E64F3383}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C081011F-BF5E-4D9C-AB73-FE62E64F3383}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E909682D-E07E-4524-B286-29C9FBCEE8D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E909682D-E07E-4524-B286-29C9FBCEE8D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E909682D-E07E-4524-B286-29C9FBCEE8D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E909682D-E07E-4524-B286-29C9FBCEE8D5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {70076779-E8C4-4563-AB97-E4023D5E37EF}
+	EndGlobalSection
+EndGlobal
