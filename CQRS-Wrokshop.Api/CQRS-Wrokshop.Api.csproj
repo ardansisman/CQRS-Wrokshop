@@ -22,10 +22,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\CQRS-Wrokshop.Application\CQRS-Wrokshop.Application.csproj" />
     <ProjectReference Include="..\CQRS-Wrokshop.Infrastructure\CQRS-Wrokshop.Infrastructure.csproj" />
   </ItemGroup>

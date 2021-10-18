@@ -6,9 +6,23 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
+    <PackageReference Include="Dapper" Version="2.0.90" />
+    <PackageReference Include="MediatR" Version="9.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="5.0.0" />
+    <PackageReference Include="Npgsql" Version="5.0.10" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.3" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\CQRS-Wrokshop.Domain\CQRS-Wrokshop.Domain.csproj" />
     <ProjectReference Include="..\CQRS-Wrokshop.Infrastructure\CQRS-Wrokshop.Infrastructure.csproj" />
     <ProjectReference Include="..\CQRS-Wrokshop.ResponseStates\CQRS-Wrokshop.ResponseStates.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Orders\" />
   </ItemGroup>
 
 </Project>
